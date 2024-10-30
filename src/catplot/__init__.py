@@ -1,2 +1,4 @@
-def main() -> None:
-    print("Hello from catplot!")
+from .main import main
+
+if __name__ == "__main__":
+    main()
