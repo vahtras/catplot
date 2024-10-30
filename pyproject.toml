@@ -16,8 +16,13 @@ dependencies = [
 ]
 
 [project.scripts]
-catplot = "catplot:main"
+catplot = "catplot.main:main"
 
 [build-system]
 requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.3",
+]
