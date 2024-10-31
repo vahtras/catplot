@@ -196,6 +196,7 @@ class BoxPlotter(Plotter):
             showmeans=True,
             meanline=True,
             meanprops={'color': 'white'},
+            palette=sns.color_palette(),
         )
 
         if kwargs.get("show") is not None:
